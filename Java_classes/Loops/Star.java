@@ -8,12 +8,15 @@ public class Star {
             // inner loop 
            for (int j=1;j<=m;j++){
             if(i==1 || j==1 || i ==n || j==m){
-                System.out.println("*");
-            } else {
+                System.out.print("*");
+            
            
+            }else {
+                System.out.print(" ");
             }
-            System.out.println();
+           
         }
+        System.out.println();
     }
 }
 }
